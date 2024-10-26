@@ -33,20 +33,21 @@ function LocomotiveJs (){
 
 var clutter = "";
 
-document.querySelector("#section-2 p").textContent.split(" ").forEach(function(e){
+document.querySelector("#section-2>p").textContent.split(" ").forEach(function(e){
     clutter += `<span> ${e} </span>`;
-    document.querySelector("#section-2 p").innerHTML = clutter;
+    document.querySelector("#section-2>p").innerHTML = clutter;
 })
 
-gsap.to("#section-2 p span", {
-    ScrollTrigger: {
-        trigger: "#section-2 p span",
-        start: "top 70%",
-        end: "top 60%",
-        scroller: "#main",
-        scrub: 5,
+gsap.to("#section-2>p>span", {
+    color: "#fff",
+    scrollTrigger:{
+        trigger:`#section-2>p>span`,
         markers: true,
+        start: "top 50%",
+        end: "bottom 0%",
+        scroller:`#main`
+        // scrub:.5,
+        
     },
-    stagger: 0.2,
-    color: "#ffffff"
+    // stagger:.2,
 })
