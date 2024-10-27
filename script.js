@@ -31,7 +31,6 @@ function LocomotiveJs(){
 }
 LocomotiveJs()
 
-
 var clutter = "";
 
 document.querySelector("#section-2>p").textContent.split(" ").forEach(function(e){
@@ -48,7 +47,6 @@ gsap.to("#section-2>p>span", {
         end: "bottom 100%",
         scroller:`#main`,
         scrub:.5
-        
     },
     stagger: 0.4
 })
