@@ -31,6 +31,7 @@ function LocomotiveJs(){
 }
 LocomotiveJs()
 
+// Section-2 Code starts here
 var clutter = "";
 
 document.querySelector("#section-2>p").textContent.split(" ").forEach(function(e){
@@ -52,7 +53,8 @@ gsap.to("#section-2>p>span", {
 })
 
 // CANVAS CODE
-const canvas = document.querySelector("canvas");
+function canvas(){
+    const canvas = document.querySelector("#section-3>canvas");
 const context = canvas.getContext("2d");
 
 canvas.width = window.innerWidth;
@@ -67,7 +69,7 @@ window.addEventListener("resize", function () {
 
 function files(index) {
   var data = `
-    ./assets/images/frames00007.png
+        
   ./assets/images/frames00010.png
   ./assets/images/frames00013.png
   ./assets/images/frames00016.png
@@ -137,7 +139,7 @@ function files(index) {
   return data.split("\n")[index];
 }
 
-const frameCount = 300;
+const frameCount = 67;
 
 const images = [];
 const imageSeq = {
@@ -155,9 +157,8 @@ gsap.to(imageSeq, {
   snap: "frame",
   ease: `none`,
   scrollTrigger: {
-    scrub: 0.15,
-    trigger: `#section-3>canvas`,
-    //   set start end according to preference
+    scrub: .5,
+    trigger: `#section-3`,
     start: `top top`,
     end: `250% top`,
     scroller: `#main`,
@@ -193,11 +194,11 @@ function scaleImage(img, ctx) {
 }
 ScrollTrigger.create({
 
-  trigger: "// object you want to pin it.",
+  trigger: "#section-3",
   pin: true,
-  // markers:true,
   scroller: `#main`,
-//   set start end according to preference
   start: `top top`,
   end: `250% top`,
 });
+}
+canvas()
