@@ -42,7 +42,7 @@ gsap.to("#section-2>p>span", {
     color: "#fff",
     scrollTrigger:{
         trigger:`#section-2>p>span`,
-        markers: true,
+        // markers: true,
         start: "top bottom",
         end: "bottom 50%",
         scroller:`#main`,
