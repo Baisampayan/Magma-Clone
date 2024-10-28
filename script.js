@@ -202,3 +202,24 @@ function canvas(){
     });
 }
 canvas()
+
+// Section-4 Code starts here   
+var clutter = "";
+
+document.querySelector("#section-4>p").textContent.split(" ").forEach(function(e){
+    clutter += `<span> ${e} </span>`;
+    document.querySelector("#section-4>p").innerHTML = clutter;
+})
+
+gsap.to("#section-4>p>span", {
+    color: "#fff",
+    scrollTrigger:{
+        trigger:`#section-4>p>span`,
+        // markers: true,
+        start: "top bottom",
+        end: "bottom 50%",
+        scroller:`#main`,
+        scrub:0.5,
+    },
+    stagger: 0.2,
+})
