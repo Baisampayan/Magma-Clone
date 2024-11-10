@@ -602,3 +602,28 @@ function canvas3(){
     });
 }
 canvas3()
+
+// For Counter
+gsap.to(".section-circle", {
+    scrollTrigger: {
+        trigger: ".section-circle",
+        start: "top bottom",
+        end: "bottom top",
+        markers: true,
+        scroller: "#main",
+        scrub: 0.5
+    },
+    scale: 2.5
+})
+
+gsap.to(".section-inner-circle", {
+    scrollTrigger: {
+        trigger: ".section-inner-circle",
+        start: "top bottom",
+        end: "bottom top",
+        markers: true,
+        scroller: "#main",
+        scrub: 0.5
+    },
+    backgroundColor: '#0a3bce91'
+})
