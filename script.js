@@ -609,7 +609,7 @@ gsap.to(".section-circle", {
         trigger: ".section-circle",
         start: "top bottom",
         end: "bottom top",
-        markers: true,
+        // markers: true,
         scroller: "#main",
         scrub: 0.5
     },
@@ -621,7 +621,7 @@ gsap.to(".section-inner-circle", {
         trigger: ".section-inner-circle",
         start: "top bottom",
         end: "bottom top",
-        markers: true,
+        // markers: true,
         scroller: "#main",
         scrub: 0.5
     },
