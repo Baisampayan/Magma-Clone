@@ -212,7 +212,7 @@ nav {
 
 .section-8-components {
     position: absolute;
-    bottom: 8%;
+    bottom: 11%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -236,9 +236,9 @@ nav {
 }
 
 #section-9 {
-    margin-top: -10px;
+    margin-top: -20vh;
     position: relative;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     background-color: #0240d3;
     display: flex;
@@ -254,7 +254,6 @@ nav {
 .left-9>h2 {
     position: absolute;
     top: 38%;
-    /* right: 5%; */
     transform: translateY(-50%);
     color: #ffffff;
     font-size: 5rem;
@@ -279,4 +278,45 @@ nav {
     border-radius: 10px;
     background-image: url("./assets/images/magma.wp2.cubdev.com-home-1.jpeg");
     background-size: cover;
+}
+
+#section-10 {
+    margin-top: -20vh;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0240d3;
+    display: flex;
+    justify-content: right;
+    padding: 0vw 10vw;
+}
+
+.left-10 {
+    height: 100vh;
+    width: 35vw;
+}
+
+.right-10 {
+    position: relative;
+    height: 100vh;
+    width: 65vw;
+    padding-left: 5vw;
+    font-family: "Jost", serif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right-10-inner>h3{
+    font-size: 1.4rem;
+    font-weight: 450;
+    line-height: 50px;
+}
+
+.right-10-inner>p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: #ffffffcc;
 }
