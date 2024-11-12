@@ -69,7 +69,7 @@ function canvas(){
 
     function files(index) {
         var data = `
-        ./assets/images/frames0007.png
+        ./assets/images/frames00007.png
         ./assets/images/frames00010.png
         ./assets/images/frames00013.png
         ./assets/images/frames00016.png
