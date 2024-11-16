@@ -349,3 +349,53 @@ nav {
     text-transform: uppercase;
     border: 0px;
 }
+
+#section-12 {
+    position: relative;
+    width: 100vw;
+}
+
+.section-12-inner-top {
+    border-top: 1px rgba(255,255,255,.1) solid;;
+}
+
+.section-12-inner {
+    position: relative;
+    height: 15vh;
+    width: 100vw;
+    padding: 0vw 10vw;
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom: 1px rgba(255,255,255,.1) solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-12-inner h3 {
+    font-weight: 350;
+    font-size: 3vw;
+    position: relative;
+    z-index: 1;
+}
+
+.section-12-inner i {
+    font-size: 2.5vw;
+    font-weight: 150;
+    position: relative;
+    z-index: 1;
+}
+
+.clr-hvr-12 {
+    height: 0%;
+    width: 100%;
+    background-color: #0240d3;
+    position: absolute;
+    top: 50;
+    left: 0;
+}
+
+.section-12-inner:hover .clr-hvr-12 {
+    height: 100%;
+    transition: all ease 0.5s;
+}
