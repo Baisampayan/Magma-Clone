@@ -320,3 +320,32 @@ nav {
     font-size: 1.2rem;
     color: #ffffffcc;
 }
+
+#section-11 {
+    position: relative;
+    height: 70vh;
+    width: 100vw;
+    padding: 0vw 10vw;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#section-11 h2 {
+    font-size: 6vw;
+    font-weight: 350;
+    line-height: 15vh;
+}
+
+#section-11 button {
+    margin-top: 5vh;
+    padding: 2vh 2.5vw;
+    border-radius: 50vw;
+    background-color: #083ed8;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 0px;
+}
