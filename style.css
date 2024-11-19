@@ -401,3 +401,11 @@ nav {
     height: 100%;
     transition: all ease 0.5s;
 }
+
+#footer {
+    padding: 1vw 10vw;
+    background-color: #0240d3;
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+}
