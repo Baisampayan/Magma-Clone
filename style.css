@@ -229,8 +229,9 @@ nav {
     background-color: #ffffff;
     color: #0d36c4;
     font-family: "Jost", serif;
+    font-size: 1vw;
     text-transform: uppercase;
-    padding: 10px 30px;
+    padding: 10px 50px;
     border-radius: 50px;
     border: transparent solid;
 }
