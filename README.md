@@ -24,13 +24,14 @@ A fully responsive and interactive clone of the [ThisIsMagma.com](https://thisis
 ---
 
 ## 📂 **Project Structure**  
-
+```bash  
 |-- index.html
 |-- styles.css
 |-- main.js
 |-- assets/  
     |-- videos/
-    |-- images/  
+    |-- images/
+```bash  
 
 ---
 
