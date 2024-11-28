@@ -6,7 +6,6 @@ A fully responsive and interactive clone of the [ThisIsMagma.com](https://thisis
 
 ## 🚀 **Features**  
 
-- **Responsive Design:** Fully optimized for various screen sizes.  
 - **Smooth Animations:** Implemented using GSAP and ScrollTrigger.  
 - **Parallax Effects:** Achieved with Locomotive Scroll for smooth, native-like scrolling.  
 - **Dynamic Content:** Recreates interactive elements with pure HTML, CSS, and JavaScript.  
@@ -26,7 +25,6 @@ A fully responsive and interactive clone of the [ThisIsMagma.com](https://thisis
 
 ## 📂 **Project Structure**  
 
-```bash  
 |-- index.html
 |-- styles.css
 |-- main.js
