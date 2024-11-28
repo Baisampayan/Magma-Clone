@@ -37,7 +37,7 @@ This project is a fully responsive and interactive **clone of the ThisIsMagma.co
 ## 📝 **How to Run the Project**  
 
 1. **Clone the Repository:**  
-   git clone https://github.com/yourusername/thisismagma-clone.git  
+   git clone https://github.com/Baisampayan/Magma-Projects  
 
 2. **Navigate to the Project Directory:**  
    cd thisismagma-clone  
