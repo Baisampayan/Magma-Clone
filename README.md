@@ -23,19 +23,6 @@ A fully responsive and interactive clone of the [ThisIsMagma.com](https://thisis
 
 ---
 
-## 📂 **Project Structure**  
-```bash  
-|-- index.html
-|-- styles.css
-|-- main.js
-|-- assets/  
-    |-- videos/
-    |-- images/
-```bash  
-
----
-
-
 ## 🌟 **Key Highlights**  
 
 - **Smooth Page Transitions:** Mimics the original site's elegant navigation.  
@@ -101,3 +88,12 @@ ThisIsMagma, HTML CSS JS, GSAP Animations, Locomotive Scroll, Front-End Clone, W
 
 
 Visit: <a href="https://baisampayan.github.io/Magma-Projects/" target="_blank"> Open Link</a>
+
+## 📂 **Project Structure**  
+```bash  
+|-- index.html
+|-- styles.css
+|-- main.js
+|-- assets/  
+    |-- videos/
+    |-- images/
