@@ -1,4 +1,4 @@
-# [Project Description:]  
+# Project Description:
 
 This project is a fully responsive and interactive **clone of the ThisIsMagma.com website**, developed using modern web technologies like **HTML**, **CSS**, **JavaScript**, and powerful animation libraries such as **GSAP**, **Locomotive Scroll**, and **ScrollTrigger**. The goal of this clone is to faithfully replicate the stunning design, layout, and functionality of the original **Magma site** while showcasing expertise in web development. By recreating smooth animations, dynamic scrolling effects, and interactive elements, this project demonstrates proficiency in front-end design, ensuring a high-quality, engaging, and responsive user experience that mirrors the original website’s interactive features.
 
